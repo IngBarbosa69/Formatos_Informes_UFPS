@@ -1,0 +1,104 @@
+% Informes_UFPS.tex
+% Plantilla para la elaboración de informes de laboratorios.
+% Versión 1.0
+% 21/02/2023
+% Autor MSc. Geiner Giovanny Barbosa Casanova 
+% Este archivo se creó a partir de la plantilla del IEEE que se puede descargar en el siguiente enlace:
+% https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn
+
+\documentclass[conference]{IEEEtran}
+
+% Paquetes
+
+\usepackage[spanish]{babel}
+ \usepackage{comment}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+% Inicio del Documento
+
+\begin{document}
+
+\title{LABORATORIO No.X: NOMBRE DEL LABORATORIO
+}
+
+\author{\IEEEauthorblockN{Nombres y Apellidos}
+\IEEEauthorblockA{Código \\
+email institucional}
+\and
+\IEEEauthorblockN{Nombres y Apellidos}
+\IEEEauthorblockA{Código \\
+email institucional}
+}
+
+\maketitle
+
+\selectlanguage{english}
+\setlocalecaption{english}{abstract}{Abstract} 
+\begin{abstract}
+In this space, what was done in the development of the laboratory is described. Maximum 100 words.\\
+\end{abstract}
+\renewcommand\IEEEkeywordsname{Keywords}
+\begin{IEEEkeywords}
+Minimum 3 and maximum 5.\\
+\end{IEEEkeywords}
+
+\selectlanguage{spanish}
+
+\begin{abstract}
+En este espacio se describe lo realizado en el desarrollo del laboratorio. Máximo 100 palabras.\\
+\end{abstract}
+
+\renewcommand\IEEEkeywordsname{Palabras Clave}
+\begin{IEEEkeywords}
+Mínimo 3, máximo 5.
+\end{IEEEkeywords}
+
+
+\section{Introducción}
+Esta plantilla se debe utilizar como base para la presentación de los informes de los laboratorios desarrollados durante el transcurso del semestre. Los campos mínimos con los que debe contar el informe son: INTRODUCCIÓN, OBJETIVOS, DESARROLLO DEL LABORATORIO, CONCLUSIONES y REFERENCIAS. Las secciones se identifican con numeración romana, mientras que las subsecciones lo hacen utilizando letras del alfabeto en mayúscula. Informe que se entregue con un formato diferente será calificado con una nota máxima de cuatro (4.0). 
+
+\section{Objetivos}
+
+\subsection{Objetivo General}
+
+En esta subsección se escribe el objetivo general del laboratorio.
+
+\subsection{Objetivos específicos}
+
+En esta subsección se escriben los objetivos específicos del laboratorio. (Si el laboratorio no incluye objetivos específicos, este campo se elimina).
+
+\section{Desarrollo del Laboratorio}
+En este campo se presenta el desarrollo tanto del trabajo previo como de los ejercicios del laboratorio.\\
+
+Es importante tener en cuenta que las \textbf{Unidades} utilizadas en este informe deben corresponder a las aceptadas por el Sistema Internacional de Unidades (SI).\\
+
+Las ecuaciones deben ir enumeradas dentro de paréntesis y en orden ascendente.\\
+
+Se debe procurar que tanto las figuras como las tablas no excedan el tamaño de la columna, sin embargo, en caso de ser necesario, estas pueden ocupar un tamaño igual al de ambas columnas. Por otro lado, la identificación y la descripción de las figuras debe ir debajo de ellas, mientras que la identificación y la descripción de las tablas debe ir encima.
+
+\section{Conclusiones}
+En este espacio se escriben las conclusiones obtenidas con el desarrollo del laboratorio.
+
+\section*{Referencias}
+
+Las referencias utilizadas en el desarrollo del laboratorio deben ir dentro de corchetes, por ejemplo: [1]. Así mismo, todas las referencias deben tener el formato IEEE.
+
+\begin{comment}
+
+con las siguientes líneas de código se agregan las referencias del informe de laboratorio.
+
+\bibliographystyle{IEEEtran}
+\bibliography{Refs}
+
+\end{comment}
+
+\end{document}
+
+% Fin del documento
