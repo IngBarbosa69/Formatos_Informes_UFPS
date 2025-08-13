@@ -13,5 +13,5 @@ Las cuales serán orientadas por el docente [Giovanny Barbosa Casanova](https://
 
 Los **Estudiantes** pueden escoger libremente entre las siguientes plantillas:
 
-* **[Plantilla de Word]([Informes_UFPS.docx/](https://github.com/IngBarbosa69/Formatos_Informes_UFPS/blob/main/Informes_UFPS.docx))**
+* **[Plantilla de Word](Informes_UFPS.docx)**
 * **[Plantilla de LaTEX](Informes_UFPS/)**
