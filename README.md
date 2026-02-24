@@ -5,7 +5,8 @@ En este repositorio los **Estudiantes** encontrarán las plantillas que deberán
 * **Análisis de Circuitos en Corriente Alterna.**
 * **Electrónica III.**
 * **Diseño Digital.**
-* **Energía Solar Fotovoltaica.**
+* **Curso Integrador I.**
+* **Control Digital.**
 
 Las cuales serán orientadas por el docente [Giovanny Barbosa Casanova](https://co.linkedin.com/in/g-barbosa-casanova).
 
